@@ -22,7 +22,7 @@ while True:
     if(int(time_now) % 120 == 0):
         for i, work in enumerate(works):
             if(abs(time_now - work[0]) > 60):
-                works[i] = (work[0], work[1], 1)
+                works[i] = (work[0], work[1], 0)
     print(works)
     print(time_now)
     
